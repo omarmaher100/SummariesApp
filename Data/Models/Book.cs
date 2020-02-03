@@ -1,6 +1,6 @@
 using System;
 
-namespace Summaries.Controllers
+namespace Summaries.Data
 {
     public class Book
     {
