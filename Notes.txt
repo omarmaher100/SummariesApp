@@ -31,3 +31,33 @@ now lets create our service
 open service folder in terminal
 ng g s book   g for generate s for servese called book
 
+go to app.module.ts 
+then to be able to use the book service that we just created, 
+we need to include it in the providers array. 
+So for that we write in here, book service. 
+And then we import the necessary namespace, 
+which is the services/book.service. 
+
+
+then go to app.module in routerModule.forroot array
+and make it when ever we have /books take this component
+      { path: 'books', component: BooksComponent},
+      { path: 'new-book', component: NewBookComponent},
+      { path: 'update-book/:id', component: UpdateBookComponent},      
+      { path: 'detele-book/:id', component: DeleteBookComponent},
+      { path: 'show-book/:id', component: ShowBookComponent},
+
+then go to nav-menu.componenet.html to change names to change route to add and books string
+            <a class="nav-link text-dark" [routerLink]="['/new-book']">Add</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" [routerLink]="['/books']"
+              >Books</a
+            >
+          </li>
+
+
+
+
+
+
