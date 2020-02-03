@@ -25,4 +25,9 @@ then create anthor componnent
 ng g c delete-book -m app
 ng g c new-book -m app
 ng g c shaw-book -m app
+ng g c update-book -m app
+
+now lets create our service
+open service folder in terminal
+ng g s book   g for generate s for servese called book
 
