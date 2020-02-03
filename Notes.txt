@@ -57,7 +57,9 @@ then go to nav-menu.componenet.html to change names to change route to add and b
           </li>
 
 
+then close all and run the app by dotnet run
 
+it shoud be fine
 
 
 
