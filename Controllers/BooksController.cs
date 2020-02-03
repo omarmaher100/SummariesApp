@@ -40,7 +40,7 @@ namespace Summaries.Controllers
         public IActionResult DeleteBook(int id)
         {
             _service.DeleteBook(id);
-            return Ok();
+            return Ok("Deleted");
         }
 
         //Get Single Book

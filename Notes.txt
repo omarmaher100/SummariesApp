@@ -1,3 +1,4 @@
+
 dotnet new angular create project with angular
 dotnet run      run project
 
@@ -7,3 +8,21 @@ ClientApp folder. Now this folder has the Angular-related files, so we're not go
 Angulor Arc
 
 default Angular files that were created. In our solution you can see the client app folder and the all the Angular related code goes in here. Here we have three main folders. The e2e which is used for unit testing related code. We have the node modules where we have all the libraries that we need to use to run our Angular app. And the most important folder in here is the source folder where all the code goes in. Inside the source folder we have the app folder, the assets and the environments. Inside the app we define the modules. Inside the app we have all components like counter, fetch data et cetera. Other than that we have the app.component.html which is know as the entry component file in Angular applications. If we open this file we're going to see in here that we have defined the menu and the body of our application. Then next we have the app.module.ts file and this is know as the configuration file in Angular projects. Because inside here we define all the components that we want to use, we define all the modules that we want to use and also the router for our Angular app. Then next we have the asset folder. This folder is used to generally keep the static files like for example the icon, images, documents et cetera. And inside the environments we have the two environment files like the production environment and the development environment where we define all the specific information that we want to use for each environments. Next we have the index.html which is the file where we define the route component where in this case we have defined the app-route. And then if you scroll down you will see the angular.json file where we define the Angular related configurations like for example where do we get the styles from? Which is the assets folder? Et cetera. Then next we have the package.json file where we define scripts like for example the script to build the Angular app which is the ng build, the script to run the test and even the dependencies like Angular animations, common, compiler et cetera. 
+
+
+npm install -g @anglular/cli   // install angulor cli globaly
+
+go to client app to src folder and crete 2 folders 
+ component folder and services folder
+ng g c book  genertate component by cli g for generate c for component
+will run error becose there are more than module so we will sepecific to the name of module like that
+ng g c books -m app    m for module app for the name of module
+
+to ensure that ccomponent created go to app.module.ts
+ and you will find the component was registerd
+
+then create anthor componnent 
+ng g c delete-book -m app
+ng g c new-book -m app
+ng g c shaw-book -m app
+
