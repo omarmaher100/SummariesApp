@@ -61,5 +61,24 @@ then close all and run the app by dotnet run
 
 it shoud be fine
 
+then go to bookcomponent to implement it by writing this
+public class books:Book[];
+
+then go to app folder and add interface folder and book.ts file in it
+and add the same properties in books class in c#
+interface Book
+{
+    id:number;
+    title: string;
+    description: string;
+    author:string;
+    rate?:number;
+    dateStart?: Date;
+    dateRead? : Date;
+}
+
+then go to books.component.html to design it
+
+
 
 
