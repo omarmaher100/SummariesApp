@@ -17,7 +17,7 @@ namespace Summaries.Controllers
         public IActionResult AddBook([FromBody]Book book)
         {
             _service.AddBook(book);
-            return Ok("Added");
+            return Ok();
         }
 
         //Read All Books
