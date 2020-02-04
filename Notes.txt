@@ -79,6 +79,9 @@ interface Book
 
 then go to books.component.html to design it
 
+ActivatedRoute to get paramter on clock
+id in paramter in component should be the same in route in app.module 
+
 
 
 
