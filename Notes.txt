@@ -82,6 +82,8 @@ then go to books.component.html to design it
 ActivatedRoute to get paramter on clock
 id in paramter in component should be the same in route in app.module 
 
+ActivatedRoute ,Router, FormBuilder
 
-
-
+activated route to get the id of the book from the URL.
+we need the router to navigate to all books after we have updated the books. 
+FormBuilder to construct our form group.
