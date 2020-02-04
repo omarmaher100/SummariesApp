@@ -22,7 +22,7 @@ namespace Summaries.Controllers
 
         //Read All Books
         [HttpGet("[action]")]
-        public IActionResult GetAllBooks()
+        public IActionResult GetBooks()
         {
             return Ok ( _service.GetAllBooks());
         }
