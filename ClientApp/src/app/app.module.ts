@@ -35,7 +35,7 @@ import { BookService } from './services/book.service';
       { path: 'books', component: BooksComponent},
       { path: 'new-book', component: NewBookComponent},
       { path: 'update-book/:id', component: UpdateBookComponent},      
-      { path: 'detele-book/:id', component: DeleteBookComponent},
+      { path: 'delete-book/:id', component: DeleteBookComponent},
       { path: 'show-book/:id', component: ShowBookComponent},
     ])
   ],

@@ -7,7 +7,7 @@
                 {{book.description}}
             </p>
             <a [routerLink]="['/books']" class="card-link">Back</a>
-            <a (click)="deleteBook(book.id)" class="btn btn-danger">Approve</a>
+            <button (click)="deleteBook(book.id)"  [routerLink]="['/books']"  class="btn btn-danger">Approve</button>
         </div>
     </div>
 </div>
